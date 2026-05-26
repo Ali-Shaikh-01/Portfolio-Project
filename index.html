@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ali Shaikh – Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,600;0,700;1,400&family=Epilogue:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+  <!-- navbar -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">Ali Shaikh<span class="dot">.</span></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- hero -->
+  <section class="hero" id="hero">
+    <div class="hero-noise"></div>
+    <div class="hero-content reveal">
+      <p class="hero-eyebrow">Hello, I'm</p>
+      <h1 class="hero-name">
+        Ali<br />
+        <em>Shaikh</em>
+      </h1>
+      <p class="hero-role">
+        Computer Engineering Student &nbsp;&mdash;&nbsp;
+        <span class="typed" id="typedText"></span><span class="cursor">|</span>
+      </p>
+      <p class="hero-tagline">
+          I build backend systems and real-time applications, focusing on performance and clean architecture.
+      </p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="https://github.com/Ali-Shaikh-01" target="_blank" rel="noopener" class="btn btn-outline">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.385-1.335-1.755-1.335-1.755-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+          GitHub
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- about -->
+  <section class="section" id="about">
+    <div class="container">
+      <p class="section-label reveal">01 / about</p>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <h2 class="section-title">Building things<br /><em>that actually work.</em></h2>
+          <p>
+            I'm a Computer Engineering student at Government Polytechnic Mumbai. I like building backend systems and working on real-time features that actually make applications feel interactive.
+          </p>
+          <p>
+            Instead of sticking to basic projects, I built a real-time competitive coding platform where users can compete in live matches. It uses WebSockets for live updates and an external API for code execution, which helped me understand how real systems handle concurrency and communication.
+          </p>
+          <p>
+            I work with C, C++, Java, Python, and JavaScript, and I’m currently focusing on improving my backend skills and system design. I'm looking for internship opportunities where I can learn and contribute to real projects.
+          </p>
+        </div>
+        <div class="about-aside reveal">
+          <div class="aside-card">
+            <div class="aside-stat">
+              <span class="stat-num">02</span>
+              <span class="stat-label">Major project built</span>
+            </div>
+            <div class="aside-stat">
+              <span class="stat-num">5+</span>
+              <span class="stat-label">Languages &amp; frameworks</span>
+            </div>
+            <div class="aside-stat">
+              <span class="stat-num">∞</span>
+              <span class="stat-label">Still Learning</span>
+            </div>
+          </div>
+          <div class="aside-links">
+            <a href="https://github.com/Ali-Shaikh-01" target="_blank" rel="noopener" class="aside-link">github.com/Ali-Shaikh-01 ↗</a>
+            <a href="https://www.linkedin.com/in/ali-shaikh-583761331/" target="_blank" rel="noopener" class="aside-link">linkedin ↗</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- skills -->
+  <section class="section section-tinted" id="skills">
+    <div class="container">
+      <p class="section-label reveal">02 / skills</p>
+      <h2 class="section-title reveal">What I work with</h2>
+      <div class="skills-grid reveal">
+
+        <div class="skill-category">
+          <h3 class="skill-cat-title">Languages</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">C</span>
+            <span class="skill-tag">C++</span>
+            <span class="skill-tag">Java</span>
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">JavaScript</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3 class="skill-cat-title">Frontend</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">HTML</span>
+            <span class="skill-tag">CSS</span>
+            <span class="skill-tag">React.js</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3 class="skill-cat-title">Backend &amp; Runtime</h3>
+          <div class="skill-tags">
+            <span class="skill-tag hi">Node.js</span>
+            <span class="skill-tag hi">Express</span>
+            <span class="skill-tag hi">Socket.IO</span>
+            <span class="skill-tag hi">REST APIs</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3 class="skill-cat-title">Data &amp; Tools</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">MongoDB</span>
+            <span class="skill-tag">Git</span>
+            <span class="skill-tag">GitHub</span>
+            <span class="skill-tag">Vercel</span>
+            <span class="skill-tag">Judge0 API</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3 class="skill-cat-title">Concepts</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">WebSockets</span>
+            <span class="skill-tag">Event-Driven Arch.</span>
+            <span class="skill-tag">Async Programming</span>
+            <span class="skill-tag">System Design</span>
+            <span class="skill-tag">DSA</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- projects -->
+  <section class="section" id="projects">
+    <div class="container">
+      <p class="section-label reveal">03 / projects</p>
+      <h2 class="section-title reveal">Things I've built</h2>
+
+      <!-- HoneYourSkills-->
+      <div class="project-featured reveal">
+        <div class="project-featured-header">
+          <div class="project-badge">Featured Project</div>
+          <div class="project-links-row">
+            <a href="https://honeyourskills-zeta.vercel.app/" target="_blank" rel="noopener" class="project-link">Live ↗</a>
+            <a href="https://github.com/Ali-Shaikh-01/Coding_Project" target="_blank" rel="noopener" class="project-link">GitHub ↗</a>
+          </div>
+        </div>
+        <h3 class="project-title">HoneYourSkills</h3>
+        <p class="project-subtitle">Real-Time Competitive Coding Platform</p>
+        <p class="project-desc">
+          A full-stack platform where developers go head-to-head in live 1v1 coding matches. Built with a custom per-language rating system, real-time verdict delivery via WebSockets, and multi-language code execution through the Judge0 API. A full-stack platform where users compete in live 1v1 coding matches. It uses WebSockets for real-time updates and Judge0 API for code execution. The system also includes a language-based rating mechanism to track performance across different programming languages. I developed this project with my friends in a team.
+        </p>
+        <div class="project-features">
+          <div class="feature-item"><span class="fdot"></span>Real-time 1v1 matches via WebSockets (Socket.IO)</div>
+          <div class="feature-item"><span class="fdot"></span>Multi-language support — C++, Java, Python, JavaScript, Kotlin</div>
+          <div class="feature-item"><span class="fdot"></span>Language-specific rating with win streak tracking</div>
+          <div class="feature-item"><span class="fdot"></span>Instant verdicts: Accepted, Wrong Answer, TLE</div>
+          <div class="feature-item"><span class="fdot"></span>User profiles with match history &amp; analytics</div>
+          <div class="feature-item"><span class="fdot"></span>External code execution via Judge0</div>
+        </div>
+        <div class="project-impact">
+          <strong>My Role:</strong> Designed and built the full stack system, including real-time match handling, backend APIs, and frontend integration.
+        </div>
+        <div class="project-stack">
+          <span class="stack-tag">React.js</span>
+          <span class="stack-tag">Node.js</span>
+          <span class="stack-tag">Express</span>
+          <span class="stack-tag">MongoDB</span>
+          <span class="stack-tag">Socket.IO</span>
+          <span class="stack-tag">Judge0 API</span>
+        </div>
+      </div>
+
+      <!-- Chat Project -->
+      <div class="project-featured reveal">
+        <div class="project-featured-header">
+          <div class="project-badge">Featured Project</div>
+          <div class="project-links-row">
+            <a href="https://chat-project-mocha.vercel.app/" target="_blank" rel="noopener" class="project-link">Live ↗</a>
+            <a href="https://github.com/Ali-Shaikh-01/Chat-Project" target="_blank" rel="noopener" class="project-link">GitHub ↗</a>
+          </div>
+        </div>
+
+        <h3 class="project-title">Real-Time Chat Application</h3>
+        <p class="project-subtitle">Multi-Room Chat Platform</p>
+
+        <p class="project-desc">
+          Developed a real-time chat application that allows users to join chat rooms using a unique room ID and communicate instantly. 
+          The backend is built with Node.js and Express, while the frontend uses React.js for a dynamic user interface. 
+          WebSockets (Socket.io) enable seamless real-time messaging between clients and the server. 
+          The application supports multiple chat rooms and efficient message broadcasting.
+        </p>
+
+        <div class="project-features">
+          <div class="feature-item"><span class="fdot"></span>Real-time messaging using Socket.io</div>
+          <div class="feature-item"><span class="fdot"></span>Multiple chat rooms with unique Room IDs</div>
+          <div class="feature-item"><span class="fdot"></span>User join/leave messages</div>
+          <div class="feature-item"><span class="fdot"></span>Users can join chat rooms using a room ID</div>
+          <div class="feature-item"><span class="fdot"></span>Real-time message exchange between users</div>
+          <div class="feature-item"><span class="fdot"></span>Web App</div>
+        </div>
+
+        <div class="project-impact">
+          <strong>My Role:</strong> Built the project end-to-end, handling both frontend and backend, and implemented real-time messaging using Socket.io.
+        </div>
+
+        <div class="project-stack">
+          <span class="stack-tag">React.js</span>
+          <span class="stack-tag">Node.js</span>
+          <span class="stack-tag">Express</span>
+          <span class="stack-tag">Socket.io</span>
+        </div>
+      </div>
+
+      </div>
+        <div class="project-placeholder reveal">
+          <span class="ph-plus">+</span>
+          <p>Will Update Soon </p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- education -->
+  <section class="section section-tinted" id="education">
+    <div class="container">
+      <p class="section-label reveal">04 / education</p>
+      <h2 class="section-title reveal">Where I study</h2>
+      <div class="edu-card reveal">
+        <div class="edu-left">
+          <div class="edu-degree">Diploma in Computer Engineering</div>
+          <div class="edu-school">Government Polytechnic Mumbai</div>
+          <span class="edu-status">Currently Pursuing</span>
+        </div>
+        <div class="edu-right">
+          <div class="edu-detail">
+            <span class="edu-detail-label">Focus</span>
+            <span class="edu-detail-val">Systems, Networks, Software Engineering</span>
+          </div>
+          <div class="edu-detail">
+            <span class="edu-detail-label">Approach</span>
+            <span class="edu-detail-val">Building real projects alongside college</span>
+          </div>
+          <div class="edu-detail">
+            <span class="edu-detail-label">Mindset</span>
+            <span class="edu-detail-val">I want to learn more</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- contact -->
+  <section class="section" id="contact">
+    <div class="container">
+      <p class="section-label reveal">05 / contact</p>
+      <div class="contact-wrap reveal">
+        <h2 class="section-title">Let's talk.</h2>
+        <p class="contact-sub">
+          I'm currently looking for internship opportunities. Feel free to reach out.
+        </p>
+        <div class="contact-links">
+          <a href="mailto:alimuzammil2008@gmail.com" class="contact-card">
+            <span class="contact-icon">✉</span>
+            <span class="contact-label">alimuzammil2008@gmail.com</span>
+            <span class="contact-arrow">→</span>
+          </a>
+          <a href="https://github.com/Ali-Shaikh-01" target="_blank" rel="noopener" class="contact-card">
+            <span class="contact-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.385-1.335-1.755-1.335-1.755-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+            </span>
+            <span class="contact-label">github.com/Ali-Shaikh-01</span>
+            <span class="contact-arrow">→</span>
+          </a>
+          <a href="https://www.linkedin.com/in/ali-shaikh-583761331/" target="_blank" rel="noopener" class="contact-card">
+            <span class="contact-icon" style="font-weight:700;font-size:0.85rem;font-family:serif;">in</span>
+            <span class="contact-label">linkedin.com/in/ali-shaikh-583761331</span>
+            <span class="contact-arrow">→</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <span class="footer-name">Ali Shaikh</span>
+        <span class="footer-note">Building, learning, and improving every day.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
