@@ -96,17 +96,24 @@ function setupActiveNav() {
 
 // very subtle tilt on the featured project card
 function setupCardTilt() {
-  const card = document.querySelector(".project-featured");
-  if (!card) return;
+  const cards = document.querySelectorAll(".project-featured");
 
-  card.addEventListener("mousemove", (e) => {
-    const rect = card.getBoundingClientRect();
-    const x = (e.clientX - rect.left) / rect.width - 0.5;
-    const y = (e.clientY - rect.top) / rect.height - 0.5;
-    card.style.transform = `perspective(1200px) rotateX(${-y * 1.5}deg) rotateY(${x * 1.5}deg)`;
-  });
-  card.addEventListener("mouseleave", () => {
-    card.style.transform = "";
+  cards.forEach((card) => {
+    card.addEventListener("mousemove", (e) => {
+      const rect = card.getBoundingClientRect();
+      const x = (e.clientX - rect.left) / rect.width - 0.5;
+      const y = (e.clientY - rect.top) / rect.height - 0.5;
+
+      card.style.transform = `
+        perspective(1200px)
+        rotateX(${-y * 1.5}deg)
+        rotateY(${x * 1.5}deg)
+      `;
+    });
+
+    card.addEventListener("mouseleave", () => {
+      card.style.transform = "";
+    });
   });
 }
 
